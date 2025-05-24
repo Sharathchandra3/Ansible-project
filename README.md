@@ -10,7 +10,7 @@ This project uses **Ansible** to automate the provisioning and management of AWS
 
 ---
 
-## Ì≥Å Project Structure
+## Project Structure
 
 .
 ‚îú‚îÄ‚îÄ create-ec2.yml        # Playbook to create EC2 instances
@@ -21,13 +21,13 @@ This project uses **Ansible** to automate the provisioning and management of AWS
 
 ---
 
-## Ì¥ê Vault Usage
+## Vault Usage
 
 Sensitive data like AWS keys are stored securely in `group_vars/` using Ansible Vault.
 
 ---
 
-## Ì∫Ä How to Run
+## How to Run
 
 Prerequisite: Install `boto3` and the `amazon.aws` Ansible collection.
 
@@ -63,7 +63,7 @@ ansible-playbook shutdown.yml -i inventory.ini
 
 ---
 
-## Ì≥Ñ .gitignore Recommendation
+## .gitignore Recommendation
 
 Make sure to exclude sensitive files from your Git repository by adding the following lines to `.gitignore`:
 
@@ -72,7 +72,7 @@ group_vars/
 
 ---
 
-## Ì±§ Author
+## Author
 
 Sharathchandra Telugu  
 GitHub: https://github.com/Sharathchandra3
