@@ -10,17 +10,6 @@ This project uses **Ansible** to automate the provisioning and management of AWS
 
 ---
 
-## Project Structure
-
-.
-├── create-ec2.yml        # Playbook to create EC2 instances
-├── shutdown.yml          # Playbook to shut down Debian-based instances
-├── inventory.ini         # Inventory with host entries
-├── vault.pass            # Vault password file (ignored from git)
-├── group_vars/           # Contains vaulted AWS credentials
-
----
-
 ## Vault Usage
 
 Sensitive data like AWS keys are stored securely in `group_vars/` using Ansible Vault.
